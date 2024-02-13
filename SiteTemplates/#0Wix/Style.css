@@ -1,0 +1,56 @@
+
+.navLinks{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+.navLinks li{
+  margin-right: 10px;
+  display: inline;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 5px;
+  }
+  
+  .container div{
+    background-color: blueviolet;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .site-branding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexy{
+    display: flex;
+    background-color: teal;
+  }
+  .flexy > div{
+    margin: 10px;
+    padding: 15px;
+  
+  }
+
+  
+  @media only screen and (device-width: 768px) {
+      /* For general iPad layouts */
+    }
+    
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+    
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
+  

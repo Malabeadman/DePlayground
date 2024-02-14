@@ -1,4 +1,22 @@
 
+.promoBar{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.promoBar h3{
+  color: white;
+  margin: 0vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+
+.site-logo{
+  float:left;
+  height: 10vh;
+}
+
 .navLinks{
   display: flex;
   padding: 0;
@@ -27,7 +45,7 @@
   }
   .site-branding{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   

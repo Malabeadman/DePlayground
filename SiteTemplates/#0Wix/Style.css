@@ -1,9 +1,11 @@
 
+/*Padding and color for the Promo Bar*/
 .promoBar{
   padding: 0;
   margin: 0;
   background-color: black;
 }
+/*White text and padding for the text*/
 .promoBar h3{
   color: white;
   margin: 0vh;
@@ -11,10 +13,22 @@
   padding-bottom: 2vh;
   text-align: center;
 }
+/* Gray bar padding and height */
+.bar{
+  padding: 0;
+  margin: 0;
+  height: 7vh;
+  background-color: gainsboro;
+}
+.bar h3{
+  color: white;
+  margin: 0vh;
+  text-align: center;
+}
 
 .site-logo{
   float:left;
-  height: 10vh;
+  height: 12vh;
 }
 
 .navLinks{
@@ -32,27 +46,30 @@
 
 .container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 30px 5px;
   }
   
   .container div{
-    background-color: blueviolet;
     margin: 5px;
-    display: inline-flex;
     justify-content: center;
     align-items: center;
   }
+
   .site-branding{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .flexy{
-    display: flex;
-    background-color: teal;
+  .BoxImage{
+    
   }
+
+  .BoxText{
+
+  }
+
   .flexy > div{
     margin: 10px;
     padding: 15px;

@@ -77,9 +77,20 @@
   }
 
   
-  @media only screen and (device-width: 768px) {
+  @media only screen and (device-width: 991px) {
       /* For general iPad layouts */
     }
+
+     
+  @media only screen and (max-width: 991px) {
+      .container{
+        flex-wrap: wrap;
+        margin: 30px 5px;
+      }
+    }
+
+
+    
     
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
       /* For portrait layouts only */

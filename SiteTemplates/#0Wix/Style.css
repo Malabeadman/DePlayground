@@ -56,6 +56,11 @@
     align-items: center;
   }
 
+  .OLPictureSection{
+    height: 25vh;
+    width: 25vh;
+  }
+
   .site-branding{
     display: flex;
     justify-content: space-between;

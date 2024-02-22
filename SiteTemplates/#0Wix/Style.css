@@ -67,6 +67,13 @@
     align-items: center;
   }
   
+
+  .blackbar{
+    background-color: black;
+    height: 10px;
+    width: 40px;
+  }
+  
   .BoxImage{
     
   }

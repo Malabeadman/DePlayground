@@ -56,6 +56,18 @@
     align-items: center;
   }
 
+  .container2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px 5px;
+  }
+  
+  .container2 div{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
   .OLPictureSection{
     height: 25vh;
     width: 25vh;
@@ -73,8 +85,11 @@
     width: 500px;
   }
 
-  .BoxImageTxt img{
+
+
+  .BoxImage2 img{
     float: right;
+    z-index: 1;
   }
 
   .BoxText{
